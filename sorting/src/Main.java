@@ -17,6 +17,7 @@ public class Main {
 
         System.out.println(lb);
 
-	    BubbleSort.bubbleSort(disorderedArray);
+	    //BubbleSort.bubbleSort(disorderedArray);
+        InsertionSort.insertionSort(disorderedArray);
     }
 }
