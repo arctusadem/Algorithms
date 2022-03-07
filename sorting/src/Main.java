@@ -3,7 +3,7 @@ public class Main {
 
     public static void main(String[] args) {
         String lb = "\n ----------------------------------------------------------------- \n";
-        int disorderedArray[] = { 5, 9, 2, 7, 12, 6, 15, 14, 1, 3, 13, 18, 8, 10, 20, 7, 4, 11, 19, 17 };
+        int[] disorderedArray = { 5, 9, 2, 7, 12, 6, 15, 14, 1, 3, 13, 18, 8, 10, 20, 7, 4, 11, 19, 17 };
         /*
         int length = 100;
         int disorderedArray[] = new int[length];
@@ -17,6 +17,7 @@ public class Main {
 
         System.out.println(lb);
 
-	    BubbleSort.bubbleSort(disorderedArray);
+	    //BubbleSort.bubbleSort(disorderedArray);
+        InsertionSort.insertionSort(disorderedArray);
     }
 }

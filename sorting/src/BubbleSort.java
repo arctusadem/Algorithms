@@ -1,11 +1,11 @@
 public class BubbleSort {
 
-    public static void bubbleSort (int[] array) {
+    static void bubbleSort (int[] array) {
         int i = 0;
         int j = array.length-1;
         int x;
 
-        for (; i < array.length; i++){
+        for (; i < array.length; i++) {
             for (; j > i; j--){
                 if (array[j] < array[j-1]) {
                     x = array[j-1];
