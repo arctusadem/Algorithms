@@ -17,6 +17,7 @@ public class Main {
 
         System.out.println(lb);
 
+        LinearSearch.linearSearch(disorderedArray, 8);
 	    //BubbleSort.bubbleSort(disorderedArray);
         InsertionSort.insertionSort(disorderedArray);
     }
