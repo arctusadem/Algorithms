@@ -1,6 +1,6 @@
 public class BubbleSort {
 
-    static void bubbleSort (int[] array) {
+    static void bubbleSort(int[] array) {
         int i = 0;
         int j = array.length-1;
         int x;
