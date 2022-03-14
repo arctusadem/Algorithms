@@ -15,4 +15,12 @@ public class BinarySearch {
             System.out.println("Value not found");
     }
 
+    public static void main(String[] args) {
+        int[] array = { 5, 9, 2, 7, 6, 15, 14, 1, 3, 13, 18, 8, 10, 20, 7, 4, 11, 19, 17 };
+
+        InsertionSort.insertionSort(array);
+
+        binarySearch(array, 13, 0, array.length);
+    }
+
 }
